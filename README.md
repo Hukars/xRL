@@ -2,8 +2,8 @@
 
 The project consists of mainly two parts currently：
 
-- offlinerl: the offline reinforcement learning library
-- frapo: the algorithm **frapo** based on the offlinerl library which achieves a meta offline reinforcement learning procedure
+- offlinerl: the offline reinforcement learning library implemented based on [PytorchLightning](https://github.com/PyTorchLightning/pytorch-lightning). To know how to use the implemented algorithms, you should be familiar with it.
+- frapo: the algorithm **frapo** based on the offlinerl library which achieves a meta offline reinforcement learning procedure. To understand offline meta RL and our work, please refer to this [material](http://proceedings.mlr.press/v139/mitchell21a/mitchell21a.pdf).
 
 ### Installation
 
