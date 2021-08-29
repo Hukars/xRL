@@ -2,8 +2,8 @@
 
 The project consists of mainly two parts currently：
 
-- offlinerl: the offline reinforcement learning library implemented based on [PytorchLightning](https://github.com/PyTorchLightning/pytorch-lightning). To know how to use the implemented algorithms, you should be familiar with it.
-- frapo: the algorithm **frapo** based on the offlinerl library which achieves a meta offline reinforcement learning procedure. To understand offline meta RL and our work, please refer to this [material](http://proceedings.mlr.press/v139/mitchell21a/mitchell21a.pdf).
+- offlinerl: the offline reinforcement learning library
+- frapo: the algorithm **frapo** based on the offlinerl library which achieves a meta offline reinforcement learning procedure
 
 ### Installation
 
@@ -14,13 +14,17 @@ conda env create -f rl_base.yaml
 conda activate rl_base
 ```
 
-After create the conda environment, you can install the package **offlinerl** by running:
+After create the conda environment, you can install the package **metarl** by running:
 
 ```sh
 pip install -e .
 ```
 
+
 ### Project structure and explanation
+The current code organization for the project is as follows:
+
+```
 xRL
 ├── xRL/frapo
 │   ├── xRL/frapo/configs    # the configuration files for frapo 
@@ -41,4 +45,4 @@ xRL
 │       └── xRL/offlinerl/utils/models
 │           └── xRL/offlinerl/utils/models/torch
 └── xRL/README.md
-
+```
