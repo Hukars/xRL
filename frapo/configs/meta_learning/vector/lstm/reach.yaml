@@ -1,0 +1,14 @@
+offline_algo:
+  default: 'fbrc'
+using_ray:
+  default: False
+task_name:
+  default: 'reach-v2'
+policy_type:
+  default: 'vector'
+encoder_type:
+  default: 'lstm'
+loss_type:
+  default: 'sl'
+pretrained_encoder_path:
+  default: None

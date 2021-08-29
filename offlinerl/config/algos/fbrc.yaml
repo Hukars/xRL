@@ -1,0 +1,87 @@
+max_epochs:
+  description: max_epochs
+  default: 500
+steps_per_epoch:
+  description: steps_per_epoch
+  default: 1000
+initial_entropy_temp:
+  description: initial_entropy_temp
+  default: 1.0
+alpha_learning_rate:
+  description: alpha_learning_rate
+  default: 1e-4
+soft_q_backup:
+  description: soft_q_backup
+  default: False
+n_action_samples:
+  description: n_action_samples
+  default: 10
+alpha_threshold:
+  description: alpha_threshold
+  default: 10
+auto_tune_entropy_temp:
+  description: auto_tune_entropy_temp
+  default: True
+entropy_temp_learning_rate:
+  description: entropy_temp_learning_rate
+  default: 3e-4
+actor_encoder_factory:
+  description: actor_encoder_factory
+  default: default
+actor_learning_rate:
+  description: actor_learning_rate
+  default: 3e-4
+critic_encoder_factory:
+  description: critic_encoder_factory
+  default: default
+n_critics:
+  description: n_critics
+  default: 2
+q_func_factory:
+  description: q_func_factory
+  default: mean
+critic_learning_rate:
+  description: critic_learning_rate
+  default: 3e-4
+target_reduction_type:
+  description: target_reduction_type
+  default: min
+tau:
+  description: tau
+  default: 0.005
+batch_size:
+  description: batch_size
+  default: 256
+update_actor_interval:
+  description: update_actor_interval
+  default: 1
+reward_bonus:
+  description: reward_bonus
+  default: 5.0
+f_reg:
+  description: f_reg
+  default: 0.1
+discount:
+  description: discount
+  default: 0.99
+actor_bc_encoder_factory:
+  description: actor_bc_encoder_factory
+  default: default
+actor_bc_learning_rate:
+  description: actor_bc_learning_rate
+  default: 1e-3
+bc_update_steps:
+  description: bc_update_steps
+  default: 1 
+bc_auto_tune_entropy_temp:
+  description: bc_auto_tune_entropy_temp
+  default: True
+bc_initial_entropy_temp:
+  description: bc_initial_entropy_temp
+  default: 1.0
+max_ep_length:
+  description: max_ep_length
+  default: 120
+val_ratio:
+  description: val_ratio
+  default: 1

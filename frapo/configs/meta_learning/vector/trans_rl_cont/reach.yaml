@@ -1,0 +1,14 @@
+offline_algo:
+  default: 'fbrc'
+using_ray:
+  default: False
+task_name:
+  default: 'reach-v2'
+policy_type:
+  default: 'vector'
+encoder_type:
+  default: 'transformer_rl'
+loss_type:
+  default: 'cont'
+pretrained_encoder_path:
+  default: "/home/iwbyyyy/ubuntu/FRAPO-Github/log/encoder_learning/ml1/reach-v2/seed0/transformer_rl/cont/encoder_transformer_rl_cont.pt"

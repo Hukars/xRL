@@ -1,0 +1,53 @@
+base_task_indices:
+  default:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+adapt_task_indices: 
+  default: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,]
+test_task_indices: 
+  default: [0, 1, 2, 3, 4, 5, 6, 7,]
+test_buffer_size:
+  default: 20
+meta_test_fine_tune_steps: 
+  default: 0
+encoder_size:
+  default: 32
+adapt_lr: 
+  default: 3e-4
+update_lr:
+  default: 3e-4
+alpha_lr:
+  default: 3e-4
+metric_lr:
+  default: 1e-3
+meta_train_gradient_steps: 
+  default: 1000000
+eval_algo_interval:
+  default: 4000
+save_model_interval:
+  default: 80000
+using_ray:
+  default: True
+save_model:
+  default: True
+batch_size:
+  default: 256
+meta_batch:
+  default: 6
+beta:
+  default: 10
+contrasitive_m:
+  default: 10.0
+benchmark_type:
+  default: 'ml1'
+offline_algo:
+  default: 'fbrc'
+task_name:
+  default: 'reach-v2'
+policy_type:
+  default: 'obs'
+encoder_type:
+  default: 'transformer'

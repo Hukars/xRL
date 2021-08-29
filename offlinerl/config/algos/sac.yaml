@@ -1,0 +1,78 @@
+max_epochs:
+  description: max_epochs
+  default: 1
+actor_encoder_factory:
+  description: actor_encoder_factory
+  default: default
+actor_learning_rate:
+  description: actor_learning_rate
+  default: 3e-4
+auto_tune_entropy_temp:
+  description: auto_tune_entropy_temp
+  default: true
+critic_encoder_factory:
+  description: critic_encoder_factory
+  default: default
+initial_entropy_temp:
+  description: initial_entropy_temp
+  default: 1.0
+n_critics:
+  description: n_critics
+  default: 2
+critic_learning_rate:
+  description: critic_learning_rate
+  default: 3e-4
+q_func_factory:
+  description: q_func_factory
+  default: mean
+target_reduction_type:
+  description: target_reduction_type
+  default: min
+batch_size:
+  description: batch_size
+  default: 128
+update_actor_interval:
+  description: update_actor_interval
+  default: 1
+start_steps:
+  description: start_steps
+  default: 2000
+update_after:
+  description: update_after
+  default: 2000
+update_every:
+  description: update_every
+  default: 1
+display_interval:
+  description: display_interval
+  default: 5000
+max_ep_length:
+  description: max_ep_length
+  default: 120
+buffer_size:
+  description: buffer_size
+  default: 1000000
+discount:
+  description: discount
+  default: 0.99
+soft_target_tau:
+  description: soft_target_tau
+  default: 5e-3
+soft_update_frequency:
+  description: soft_update_frequency
+  default: 1
+learnable_alpha:
+  description: learnable_alpha
+  default: True
+initial_alpha:
+  description: initial_alpha
+  default: 1
+alpha_learning_rate:
+  description: alpha_learning_rate
+  default: 3e-4
+# target_entropy:
+#   description: target_entropy
+#   default: -2
+need_replay_buffer:
+  description: need_replay_buffer
+  default: True

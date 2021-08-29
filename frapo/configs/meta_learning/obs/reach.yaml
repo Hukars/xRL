@@ -1,0 +1,10 @@
+offline_algo:
+  default: 'fbrc'
+using_ray:
+  default: False
+task_name:
+  default: 'reach-v2'
+policy_type:
+  default: 'obs'
+pretrained_encoder_path:
+  default: None

@@ -1,0 +1,21 @@
+max_epochs:
+  description: max_epochs
+  default: 200
+steps_per_epoch:
+  description: steps_per_epoch
+  default: 1000
+val_ratio:
+  val_ratio: val_ratio
+  default: 0.999
+encoder_factory:
+  description: encoder_factory
+  default: default
+learning_rate:
+  description: learning_rate
+  default: 1e-3
+batch_size:
+  batch_size: batch_size
+  default: 256
+deterministic_environment:
+  description: deterministic_environment
+  default: True

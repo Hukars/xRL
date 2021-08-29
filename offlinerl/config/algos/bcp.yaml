@@ -1,0 +1,21 @@
+max_epochs:
+  description: max_epochs
+  default: 10
+steps_per_epoch:
+  description: steps_per_epoch
+  default: 1000
+initial_entropy_temp:
+  description: initial_entropy_temp
+  default: 1.0
+encoder_factory:
+  description: encoder_factory
+  default: default
+learning_rate:
+  description: learning_rate
+  default: 3e-4
+batch_size:
+  batch_size: batch_size
+  default: 256
+max_ep_length:
+  description: max_ep_length
+  default: 120

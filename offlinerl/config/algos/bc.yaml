@@ -1,0 +1,21 @@
+max_epochs:
+  description: max_epochs
+  default: 500
+steps_per_epoch:
+  description: steps_per_epoch
+  default: 1000
+encoder_factory:
+  description: encoder_factory
+  default: default
+learning_rate:
+  description: learning_rate
+  default: 1e-3
+batch_size:
+  batch_size: batch_size
+  default: 64
+max_ep_length:
+  description: max_ep_length
+  default: 120
+# val_ratio:
+#   description: val_ratio
+#   default: 0.5
